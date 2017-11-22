@@ -1,0 +1,153 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 5;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  top: 0;
+  left: 0;
+  opacity: inherit;
+}
+
+.logo img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: underline;
+  padding: 10px;
+}
+
+#mission {
+  display: flex;
+  height: 700px;
+  width: 1200px;
+  background-image: url("../images/mission-background.jpg");
+  margin: 70px auto 0px auto;
+  position: relative;
+}
+
+.statement {
+  display: flex;
+  align-content: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.statement h2 {
+  background-color: black;
+  width: 100%;
+  padding: 10px;
+  margin: 0;
+  opacity: inherit;
+  border-bottom: 1px solid black;
+}
+
+.statement h4 {
+  background-color: black;
+  width: 100%;
+  padding: 10px;
+  margin: 0;
+  opacity: inherit;
+}
+
+#featured {
+  padding-top: 50px;
+}
+
+#featured h2, h4 {
+  opacity: 0.9;
+  margin: 15px;
+}
+
+.items {
+  display: inline-flex;
+  width: 1000px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+  margin: 0;
+}
+
+.tea {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
+
+.tea img {
+  height: 200px;
+  width: 300px;
+  padding-bottom: 10px;
+}
+
+#locations {
+  height: 500px;
+  width: 1200px;
+  margin: 0 auto;
+  background-image: url("../images/locations-background.jpg");
+  margin-top: 70px;
+}
+
+#locations h2 {
+  width: 100%;
+  margin: 0;
+  padding: 60px 0 15px 0;
+}
+
+.stores {
+  display: inline-flex;
+  margin: 0;
+  align-items: center;
+  opacity: 1;
+}
+
+.address {
+  display: inline-flex;
+  flex-direction: column;
+  background-color: black;
+  justify-content: space-between;
+  height: 300px;
+  width: 300px;
+  margin: 0 20px;
+  opacity: inherit;
+}
+
+#contact {
+  height: 200px;
+  opacity: 0.9;
+}
+
+#contact h2 {
+  margin: 0;
+  padding: 10px;
+  opacity: inherit;
+}
+
+.info {
+  opacity: 0.9;
+}
+
+.footer {
+  text-align: left;
+  font-weight: bold;
+  padding-left: 20px;
+  opacity: 0.9;
+}
